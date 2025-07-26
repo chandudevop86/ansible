@@ -1,0 +1,8 @@
+- name: Ping Play book
+  hosts: web
+  #become: yes
+  Tasks:
+    - name : Ping th  palybook
+      ansible.builtin.ping:
+
+   
