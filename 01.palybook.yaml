@@ -1,4 +1,4 @@
-- name: Ping Play book
+- name: Ping Playbook
   hosts: web
   tasks:
   - name : Ping the server
