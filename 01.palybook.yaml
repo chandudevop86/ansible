@@ -2,7 +2,7 @@
   hosts: web
   #become: yes
   Tasks:
-    - name : Ping th  palybook
-      ansible.builtin.ping:
+   - name : Ping the server
+     ansible.builtin.ping:
 
    
