@@ -1,8 +1,8 @@
 - name: Ping Play book
   hosts: web
   #become: yes
-  Tasks:
-   - name : Ping the server
-     ansible.builtin.ping:
+  tasks:
+  - name : Ping the server
+    ansible.builtin.ping:
 
    
